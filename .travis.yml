@@ -7,7 +7,9 @@ before_install:
   - "export DISPLAY=:99.0"  
   - sleep 3
   
-script: "mvn verify"
+script: 
+- mvn clean
+- mvn test
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/

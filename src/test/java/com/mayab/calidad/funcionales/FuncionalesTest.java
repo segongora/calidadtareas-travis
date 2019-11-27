@@ -1,4 +1,4 @@
-package com.mayab.calidad.funcionales;
+/*package com.mayab.calidad.funcionales;
 
 import junit.framework.TestCase;
 
@@ -17,3 +17,4 @@ public class FuncionalesTest extends TestCase {
 	}
 
 }
+*/

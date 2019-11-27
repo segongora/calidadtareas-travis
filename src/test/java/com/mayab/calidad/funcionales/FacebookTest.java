@@ -1,4 +1,4 @@
-package com.mayab.calidad.funcionales;
+/*package com.mayab.calidad.funcionales;
 
 import static org.junit.Assert.*;
 
@@ -50,7 +50,7 @@ public class FacebookTest {
 		assertEquals("Sergio Gongora", success);
 		System.out.print("¡Exito! Ha logrado iniciar sesión en Facebook:\n" + success);
 		
-	}*/
+	}
 	
 	@Test
 	public void testLoginDenied() {
@@ -86,3 +86,4 @@ public class FacebookTest {
 		System.out.print("¡Incorrecto! El email ingresado es incorrecto:\n" + denied);
 	}
 }
+*/

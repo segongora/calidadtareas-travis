@@ -8,5 +8,6 @@ before_install:
   - sleep 3
   
 script: 
-- mvn clean verify
+- mvn clean
 - mvn test
+- mvn surefire:test -Dtest=Parcial2

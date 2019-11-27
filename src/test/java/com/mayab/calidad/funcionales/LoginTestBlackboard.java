@@ -1,4 +1,4 @@
-package com.mayab.calidad.funcionales;
+/*package com.mayab.calidad.funcionales;
 
 import static org.junit.Assert.*;
 
@@ -88,3 +88,4 @@ public class LoginTestBlackboard {
 		System.out.print("Introduce tus datos");
 	}
 }
+*/

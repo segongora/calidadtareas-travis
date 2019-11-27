@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "570f5aaa-c9aa-4b7b-b7cc-0d44789258f3",
+		"name": "API Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://mern-crud.herokuapp.com/api/users/",
+					"protocol": "https",
+					"host": [
+						"mern-crud",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST ID",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n    {\n        \"name\": \"Sergio\",\n        \"email\": \"sergio@gongora.com\",\n        \"age\": 21,\n        \"gender\": \"m\"\n    }\n  "
+				},
+				"url": {
+					"raw": "https://mern-crud.herokuapp.com/api/users/",
+					"protocol": "https",
+					"host": [
+						"mern-crud",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://mern-crud.herokuapp.com/api/users/5dcb5dbeeff2350012ec65ce",
+					"protocol": "https",
+					"host": [
+						"mern-crud",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"users",
+						"5dcb5dbeeff2350012ec65ce"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

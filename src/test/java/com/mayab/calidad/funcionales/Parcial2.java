@@ -24,7 +24,7 @@ public class Parcial2 {
 		url = "https://mern-crud.herokuapp.com";
 		
 		// Indicarle al sistema donde tengo almacenado MI chromedriver. Debe cambiarse el segundo valor.
-		System.setProperty("webdriver.chrome.driver", "/Users/segongora/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		
 		// Crear nuevo driver.
 		driver = new ChromeDriver();

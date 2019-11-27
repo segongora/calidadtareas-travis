@@ -1,12 +1,5 @@
-language: node_js
-node_js:
-  - "8"
-# Cache node_modules
-cache:
-  directories:
-    - "node_modules"
-install:
-  - npm install
+language: java
+jdk: oraclejdk11
 services:
 - xvfb
 addons:
@@ -14,12 +7,7 @@ addons:
     sources:
       - google-chrome
     packages:
-      
 
-before_script:
+before_install:
   - "export DISPLAY=:99.0"  
   - sleep 3
-script:
-  - npm test
-  - echo "Done"
-  - ls 

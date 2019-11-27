@@ -8,7 +8,7 @@ before_install:
   - sleep 3
   
 install: true
-script: ./mvnw clean install
+script: mvn clean install
 cache:
   directories:
   - $HOME/.m2

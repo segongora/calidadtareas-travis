@@ -6,3 +6,9 @@ services:
 before_install:
   - "export DISPLAY=:99.0"  
   - sleep 3
+  
+install: true
+script: ./mvnw clean install
+cache:
+  directories:
+  - $HOME/.m2

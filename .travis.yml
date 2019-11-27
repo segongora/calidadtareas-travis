@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+  - "8"
+# Cache node_modules
+cache:
+  directories:
+    - "node_modules"
+install:
+  - npm install
+services:
+- xvfb
+addons:
+  apt:
+    sources:
+      - google-chrome
+    packages:
+      
+
+before_script:
+  - "export DISPLAY=:99.0"  
+  - sleep 3
+script:
+  - npm test
+  - echo "Done"
+  - ls 
